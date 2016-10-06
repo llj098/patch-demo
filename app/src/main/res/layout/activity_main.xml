@@ -27,16 +27,13 @@
         android:layout_marginStart="21dp"
         android:id="@+id/button" />
 
-    <!--
-    <TextView
-        android:text="Hi"
+    <Button
+        android:text="delete patch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button"
-        android:layout_marginTop="20dp"
-        android:id="@+id/textView2" />
-        -->
+        android:id="@+id/btn_clean" />
 
 </RelativeLayout>
