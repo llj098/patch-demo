@@ -9,7 +9,7 @@ import com.tencent.tinker.loader.shareutil.ShareConstants;
 
 public class App extends TinkerApplication {
     public App() {
-        super(ShareConstants.TINKER_ENABLE_ALL);
+        super(ShareConstants.TINKER_ENABLE_ALL, "demo.interrcs.patch.AppLike");
 
     }
 }
