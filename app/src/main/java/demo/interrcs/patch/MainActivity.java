@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ((TextView)findViewById(R.id.textView)).setVisibility(View.INVISIBLE);
+        //((TextView)findViewById(R.id.textView)).setVisibility(View.INVISIBLE);
 
         if (Tinker.with(getApplicationContext()).isTinkerLoaded()) {
             return;
